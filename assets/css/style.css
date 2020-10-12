@@ -273,8 +273,10 @@ section {
   }
 
   .contact-info iframe {
-      width: 400px;
-      height: 400px;
+      width: 300px;
+      height: 250px;
+      float: left;
+      overflow: auto;
   }
 
   .contact-info div {
@@ -282,19 +284,21 @@ section {
       display: inline-block;
       vertical-align: top;
       text-align: left;
+      float: left;
       margin: 30px 0 0 60px;
       color: white;
+      overflow:auto;
   }
 
   .contact-info h3 {
       color: #fce138;
-      font-size: 32px;
+      font-size: 30px;
   }
 
   .contact-info p, .control-info address {
       margin: 20px 0;
       line-height: 1.5;
-      font-size: 20px;
+      font-size: 16px;
       font-style: normal;
   }
 
